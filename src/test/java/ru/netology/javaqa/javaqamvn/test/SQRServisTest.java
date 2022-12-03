@@ -9,7 +9,7 @@ public class SQRServisTest {
     public void testOne() {
         SQRService service = new SQRService();
         int expected = 16;
-        int actual = service.NumberSQR(500, 1500, 0);
+        int actual = service.numberSQR(500, 1500);
         // System.out.println(actual);
 
         Assertions.assertEquals(expected, actual);
@@ -19,7 +19,7 @@ public class SQRServisTest {
     public void testTwoError() {
         SQRService service = new SQRService();
         int expected = 15;
-        int actual = service.NumberSQR(500, 1500, 0);
+        int actual = service.numberSQR(500, 1500);
         // System.out.println(actual);
 
         Assertions.assertEquals(expected, actual);
@@ -29,7 +29,7 @@ public class SQRServisTest {
     public void testThreeZeroError() {
         SQRService service = new SQRService();
         int expected = 15;
-        int actual = service.NumberSQR(0, 1500, 0);
+        int actual = service.numberSQR(0, 1500);
         // System.out.println(actual);
 
         Assertions.assertEquals(expected, actual);
@@ -39,7 +39,7 @@ public class SQRServisTest {
     public void testThreeZero() {
         SQRService service = new SQRService();
         int expected = 29;
-        int actual = service.NumberSQR(0, 1500, 0);
+        int actual = service.numberSQR(0, 1500);
         // System.out.println(actual);
 
         Assertions.assertEquals(expected, actual);
