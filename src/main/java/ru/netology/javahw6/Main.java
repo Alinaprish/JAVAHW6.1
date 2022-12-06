@@ -5,7 +5,7 @@ public class Main {
         SQRService service = new SQRService();
         int firstBorder = 500;
         int secondBorder = 1500;
-        int NumbSQR = 0;
+        int numbSQR = 0;
         int actual = service.numberSQR(500, 1500);
         System.out.println(actual);
     }

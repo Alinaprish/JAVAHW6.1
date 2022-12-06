@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.javahw6.SQRService;
 
-public class SQRServisTest {
+public class SQRServiceTest {
     @Test
     public void testOne() {
         SQRService service = new SQRService();
