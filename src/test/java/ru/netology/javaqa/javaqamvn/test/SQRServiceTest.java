@@ -15,25 +15,6 @@ public class SQRServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    public void testTwoError() {
-        SQRService service = new SQRService();
-        int expected = 15;
-        int actual = service.numberSQR(500, 1500);
-        // System.out.println(actual);
-
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testThreeZeroError() {
-        SQRService service = new SQRService();
-        int expected = 15;
-        int actual = service.numberSQR(0, 1500);
-        // System.out.println(actual);
-
-        Assertions.assertEquals(expected, actual);
-    }
 
     @Test
     public void testThreeZero() {
